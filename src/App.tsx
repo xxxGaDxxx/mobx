@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <Counter/>
       <Todo/>
-      <Todo/>
     </div>
   );
 }

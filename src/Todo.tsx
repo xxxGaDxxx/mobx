@@ -11,7 +11,7 @@ export const Todo = observer(() => {
           <input type='checkbox' onChange={() => todo.completedTodo(t.id)} checked={t.completed}/>
           <p>{t.title}</p>
           <button onClick={() => todo.removeTodo(t.id)}>X</button>
-          <button onClick={() => todo.addTodo({id: 5, title: '5000', completed: false})}>+</button>
+          <button onClick={() => todo.fetchTodos()}>+</button>
         </div>
       )}
     </div>
