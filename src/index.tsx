@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './app/App';
+
 import reportWebVitals from './reportWebVitals';
 import {RootStateProvider} from "./store/RootStateContext";
+import {BrowserRouter} from "react-router-dom";
+import {App} from "./app/App";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <RootStateProvider>
-    <App/>
-  </RootStateProvider>
+  <BrowserRouter>
+    <RootStateProvider>
+      <App/>
+    </RootStateProvider>
+  </BrowserRouter>
 );
 
 reportWebVitals();

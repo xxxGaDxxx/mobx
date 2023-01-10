@@ -1,5 +1,4 @@
 import React from 'react';
-// import counter from './store/counter'
 import {observer} from "mobx-react-lite";
 import {useRootStore} from "../../store/RootStateContext";
 

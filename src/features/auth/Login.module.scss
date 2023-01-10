@@ -1,0 +1,48 @@
+@import "../../common/styles/Variablies";
+
+.containerForm {
+  background-color: $bgLogin;
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  .form {
+    width: 40%;
+
+    .containerDescription {
+      margin-bottom: 20px;
+      p {
+
+      }
+
+      a {
+        color: $white;
+        text-decoration: none;
+      }
+
+    }
+
+    input {
+      height: 24px;
+      width: 100%;
+      text-align: center;
+      border: 1px $colorSearch solid;
+      border-radius: 5px;
+      outline: none;
+      padding-left: 40px;
+      padding-right: 15px;
+      color: $twoColor;
+      margin-bottom: 20px;
+    }
+  }
+
+
+}
