@@ -1,6 +1,6 @@
 import {makeAutoObservable} from "mobx";
 
-class Counter {
+export class Counter {
   count = 0
   time = 60
 
@@ -24,4 +24,4 @@ class Counter {
 
 }
 
-export default new Counter()
+// export default new Counter()

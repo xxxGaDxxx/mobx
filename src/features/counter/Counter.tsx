@@ -1,11 +1,14 @@
 import React from 'react';
-import counter from './store/counter'
+// import counter from './store/counter'
 import {observer} from "mobx-react-lite";
+import {useRootStore} from "../../store/RootStateContext";
 
 
 const stylesS = {width: 50, height: 50, background: "#525151"}
 
 export const Counter = observer(() => {
+  const {counter} = useRootStore()
+
   return (
     <div>
       {/*{'counter = ' + counter.count}*/}

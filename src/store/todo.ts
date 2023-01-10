@@ -13,7 +13,7 @@ const initialState: TodoType[] = [
   // {id: 3, title: 'Порадуйся', completed: false},
 ]
 
-class Todo {
+export class Todo {
   todos = initialState
 
 
@@ -49,5 +49,3 @@ class Todo {
   }
 
 }
-
-export default new Todo()
