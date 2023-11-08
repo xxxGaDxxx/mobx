@@ -16,7 +16,6 @@ export const TodolistList = observer(() => {
 
   return (
     <div>
-      <h2>test rebese</h2>
       TodolistList
     </div>
   );
