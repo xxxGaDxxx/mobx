@@ -30,7 +30,6 @@ export const App = observer(() => {
   return (
     <div className="App">
       <Routes>
-        <h2>main new commit</h2>
         <Route path="/" element={<TodolistList/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="*" element={<h1>404: PAGE NOT FOUND</h1>}/>
