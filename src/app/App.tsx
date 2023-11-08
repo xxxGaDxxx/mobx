@@ -30,6 +30,7 @@ export const App = observer(() => {
   return (
     <div className="App">
       <Routes>
+        <div>test</div>
         <Route path="/" element={<TodolistList/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="*" element={<h1>404: PAGE NOT FOUND</h1>}/>
